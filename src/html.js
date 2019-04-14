@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './theme/bulma.css';
 
 export default class HTML extends React.Component {
   render() {
@@ -14,7 +15,18 @@ export default class HTML extends React.Component {
           />
 
           {/* Add custom css or scripts here */}
-
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+          />
+          <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
+            rel="stylesheet"
+          />
           {/* Add custom css or scripts here */}
 
           {this.props.headComponents}
