@@ -4,6 +4,9 @@ import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import '../theme/bulma.css';
+import Hero from '../components/Hero';
+import Features from '../components/Features';
+import Card from '../components/Card';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -14,6 +17,9 @@ export default class IndexPage extends React.Component {
           description="Welcome to GatsbyJs v1"
           url={`${config.siteUrl}`}
         />
+        <Hero />
+        <Features />
+        <Card />
       </Layout>
     );
   }
