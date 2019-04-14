@@ -1,9 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// import appStore from '../../static/images/appstore.svg';
-// import playStore from "../../static/images";
-
 const Container = styled.div`
   h1 {
     font-size: 3.25rem;
@@ -16,11 +13,18 @@ const Container = styled.div`
   img {
     padding: 1rem;
     margin-top: 2rem;
+    @media only screen and (max-width: 768px) {
+      padding: 0;
+      margin-top: 1rem;
+    }
   }
 `;
 
 const P = styled.p`
   margin-top: 1rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 const Hero = () => (
