@@ -13,8 +13,9 @@ const Section = styled.section`
 `;
 
 const Image = styled.img`
-  height: 50rem;
-  width: 50rem;
+  height: 32rem;
+  width: 16rem;
+  margin-top: 5rem;
 `;
 
 const Application = () => (
@@ -36,9 +37,9 @@ const Application = () => (
           </div>
         </div>
       </div>
-    </div>
-    <div className="container has-text-centered">
-      <Image src="/images/phone.png" alt="Phone" />
+      <div className="container has-text-centered">
+        <Image src="/images/phone.png" alt="Phone" />
+      </div>
     </div>
   </Section>
 );
