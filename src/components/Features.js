@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Card from './Card';
 
 const Section = styled.section`
   h2 {
@@ -8,6 +9,16 @@ const Section = styled.section`
     padding: 0rem 35rem;
     @media only screen and (max-width: 768px) {
       padding: 0;
+    }
+  }
+  .column {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    @media only screen and (max-width: 768px) {
+      display: block;
+      justify-content: space-evenly;
+      margin-top: 2rem;
     }
   }
 `;
@@ -23,6 +34,36 @@ const Features = () => (
           The easiest way store and use crypto around the world with
           Decetralised wallet.
         </h2>
+      </div>
+    </div>
+    <div className="columns">
+      <div className="column">
+        <Card
+          title="Keep your funds secure"
+          description="You have full control of your wallet holding private keys to access
+          wallet and with improved fund management and transaction signature you
+          have no fear to loose or hack crypto funds."
+        />
+      </div>
+      <div className="column">
+        <Card
+          title="Multi Chain Wallets"
+          description="Create and import multiple chain wallets by using the same private keys or memoric passphrase."
+        />
+      </div>
+    </div>
+    <div className="columns">
+      <div className="column">
+        <Card
+          title="Awesome UI Experience"
+          description="Smooth flow and easy to understand UI experience helps newcomers to deal in crypto with comfort."
+        />
+      </div>
+      <div className="column">
+        <Card
+          title="Token Management"
+          description="Search or add custom tokens. In one step only you can get detailed information about your tokens."
+        />
       </div>
     </div>
   </Section>

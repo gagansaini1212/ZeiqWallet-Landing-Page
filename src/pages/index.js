@@ -6,7 +6,6 @@ import Layout from '../components/Layout';
 import '../theme/bulma.css';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
-import Card from '../components/Card';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -19,7 +18,6 @@ export default class IndexPage extends React.Component {
         />
         <Hero />
         <Features />
-        <Card />
       </Layout>
     );
   }
