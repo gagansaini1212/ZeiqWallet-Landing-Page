@@ -40,9 +40,9 @@ const Features = () => (
       <div className="column">
         <Card
           title="Keep your funds secure"
-          description="You have full control of your wallet holding private keys to access
-          wallet and with improved fund management and transaction signature you
-          have no fear to loose or hack crypto funds."
+          description="You have full control over your wallet holding private keys to access
+          wallet. With improved fund management and transaction signature you
+          have no fear to loosing crypto funds."
         />
       </div>
       <div className="column">
@@ -62,7 +62,7 @@ const Features = () => (
       <div className="column">
         <Card
           title="Token Management"
-          description="Search or add custom tokens. In one step only you can get detailed information about your tokens."
+          description="Search or add custom tokens. Get detailed information about your tokens in one step."
         />
       </div>
     </div>

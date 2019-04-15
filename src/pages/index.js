@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import '../theme/bulma.css';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
+import Application from '../components/Application';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -18,6 +19,7 @@ export default class IndexPage extends React.Component {
         />
         <Hero />
         <Features />
+        <Application />
       </Layout>
     );
   }
