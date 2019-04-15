@@ -1,6 +1,6 @@
-# Kickoff GatsbyJs
+# Zeiq Wallet
 
-A starting point using ReactJs, bundled with awesome GatsbyJs v2.
+An application for crypto transactions.
 
 [Demo](https://kickoff-gatsbyjs.netlify.com/)
 

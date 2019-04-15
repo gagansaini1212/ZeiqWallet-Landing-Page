@@ -15,7 +15,7 @@ export default class IndexPage extends React.Component {
       <Layout>
         <Seo
           title="Home"
-          description="Welcome to GatsbyJs v1"
+          description="Welcome to Zeiq Wallet"
           url={`${config.siteUrl}`}
         />
         <Hero />
