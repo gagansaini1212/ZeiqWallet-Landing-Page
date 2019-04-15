@@ -34,7 +34,7 @@ const Container = styled.div`
   }
 `;
 
-const Footer = () => (
+const Promotion = () => (
   <div className="container hero is-medium">
     <div className="columns">
       <div className="column is-5 is-offset-1 has-background-info">
@@ -93,4 +93,4 @@ const Footer = () => (
   </div>
 );
 
-export default Footer;
+export default Promotion;

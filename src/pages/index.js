@@ -7,7 +7,7 @@ import '../theme/bulma.css';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
 import Application from '../components/Application';
-import Footer from '../components/Footer';
+import Promotion from '../components/Promotion';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -21,7 +21,7 @@ export default class IndexPage extends React.Component {
         <Hero />
         <Features />
         <Application />
-        <Footer />
+        <Promotion />
       </Layout>
     );
   }
