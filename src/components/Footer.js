@@ -8,18 +8,11 @@ const List = styled.ul`
 const Font = styled.i`
   color: lightgreen;
   font-size: 1.2rem;
-  /* margin-left: 50px; */
 `;
 
 const Text = styled.span`
   line-height: 2.5rem;
 `;
-
-// const Line = styled.div`
-//     height: 100%;
-//     background-color: white;
-//     width: 10px;
-// `;
 
 const Container = styled.div`
   padding-left: 30px;
@@ -80,7 +73,6 @@ const Footer = () => (
       </div>
       <div className="column is-5 has-background-info">
         <Container className="container">
-          {/* <Line /> */}
           <h1 className="has-text-weight-bold has-text-white">
             Get the app today
           </h1>
