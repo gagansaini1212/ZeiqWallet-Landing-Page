@@ -8,6 +8,7 @@ import Hero from '../components/Hero';
 import Features from '../components/Features';
 import Application from '../components/Application';
 import Promotion from '../components/Promotion';
+import Footer from '../components/Footer';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -22,6 +23,7 @@ export default class IndexPage extends React.Component {
         <Features />
         <Application />
         <Promotion />
+        <Footer />
       </Layout>
     );
   }

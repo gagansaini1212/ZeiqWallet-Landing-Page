@@ -35,7 +35,7 @@ const Container = styled.div`
 `;
 
 const Promotion = () => (
-  <div className="container hero is-medium">
+  <div className="container">
     <div className="columns">
       <div className="column is-5 is-offset-1 has-background-info">
         <List>
