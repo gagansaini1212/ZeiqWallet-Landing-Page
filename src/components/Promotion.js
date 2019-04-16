@@ -70,7 +70,7 @@ const Container = styled.div`
 const Promotion = () => (
   <div className="container">
     <div className="columns">
-      <Box className="column is-5 is-offset-1 has-background-info">
+      <Box className="column is-5 is-offset-1 has-background-info" id="promotion">
         <List>
           <li>
             <Font className="fas fa-check" /> &nbsp; &nbsp;

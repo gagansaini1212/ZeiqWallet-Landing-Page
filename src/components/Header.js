@@ -36,20 +36,22 @@ const Header = () => (
     <div id="navbarBasicExample" className="navbar-menu">
       <div className="navbar-end is-hidden-mobile">
         <div className="navbar-item">
-          <Anchor className="is-size-5 has-text-weight-bold">
+          <Anchor className="is-size-5 has-text-weight-bold" href="#promotion">
             Download the app
           </Anchor>
-          <a className="is-size-5 has-text-weight-bold">FAQs</a>
+          <a className="is-size-5 has-text-weight-bold">
+            <Link to="/faq/">FAQs</Link>
+          </a>
         </div>
       </div>
     </div>
     <div className="navbar-end is-hidden-tablet">
       <div className="navbar-item">
-        <Anchor className="is-size-5 has-text-weight-bold">
+        <Anchor className="is-size-5 has-text-weight-bold" href="#promotion">
           Download the app
         </Anchor>
         <a className="is-size-5 has-text-weight-bold">
-          <Link to="/faq/">Faq</Link>
+          <Link to="/faq/">FAQs</Link>
         </a>
       </div>
     </div>
