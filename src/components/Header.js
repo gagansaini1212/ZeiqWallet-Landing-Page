@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 const Container = styled.nav`
   .navbar-brand {
@@ -47,7 +48,9 @@ const Header = () => (
         <Anchor className="is-size-5 has-text-weight-bold">
           Download the app
         </Anchor>
-        <a className="is-size-5 has-text-weight-bold">FAQs</a>
+        <a className="is-size-5 has-text-weight-bold">
+          <Link to="/faq/">Faq</Link>
+        </a>
       </div>
     </div>
   </Container>
