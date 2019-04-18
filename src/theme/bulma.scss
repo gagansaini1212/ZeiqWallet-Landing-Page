@@ -2,7 +2,6 @@
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700');
-
 $black: #000000;
 
 // Update Bulma's global variables
@@ -24,3 +23,4 @@ $body-background-color: #f7f8fa;
 $navbar-background-color: #f7f8fa;
 
 @import '../../node_modules/bulma/bulma.sass';
+@import '../../node_modules/bulma-extensions/bulma-accordion/src/sass/index.sass';

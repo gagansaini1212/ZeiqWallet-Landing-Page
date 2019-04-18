@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 
 import config from '../utils/config';
+import '../../static/css/style.css';
 import Header from './Header';
 import Footer from './Footer';
 
