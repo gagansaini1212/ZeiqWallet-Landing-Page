@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+}
+.accordion {
+    background-color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }

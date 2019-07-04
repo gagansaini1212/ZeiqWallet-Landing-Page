@@ -6,6 +6,8 @@ import Layout from '../components/Layout';
 import '../theme/bulma.css';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
+import Application from '../components/Application';
+import Promotion from '../components/Promotion';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -13,11 +15,13 @@ export default class IndexPage extends React.Component {
       <Layout>
         <Seo
           title="Home"
-          description="Welcome to GatsbyJs v1"
+          description="Welcome to Zeiq Wallet"
           url={`${config.siteUrl}`}
         />
         <Hero />
         <Features />
+        <Application />
+        <Promotion />
       </Layout>
     );
   }

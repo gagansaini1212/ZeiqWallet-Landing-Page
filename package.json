@@ -1,6 +1,6 @@
 {
-  "name": "kickoff-gatsbyjs",
-  "description": "A react starting point using GatsbyJS",
+  "name": "zeiq-wallet",
+  "description": "An application for crypto transactions.",
   "version": "2.0.1",
   "author": "Parminder Klair",
   "license": "MIT",
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "bulma": "^0.7.4",
+    "bulma-extensions": "^6.2.4",
     "gatsby": "^2.3.3",
     "gatsby-image": "^2.0.35",
     "gatsby-plugin-google-analytics": "^2.0.18",
